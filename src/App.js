@@ -1,22 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import LandingPage from './LandingPage';
+import RegisterPage from './RegisterPage'
+import HomePage from './HomePage';
+import Gateway from './Gateway'
+import Otp from './Otp';
 
+import {Route} from 'react-router-dom'
 function App() {
+ 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+         <h1>Simple Learn Courses</h1>
+         <Route exact path="/" component={LandingPage}></Route>
+         <Route path="/register" component={RegisterPage}></Route>
+         <Route path="/home" component={HomePage}></Route>
+         <Route path="/gateway" component={Gateway}></Route>
+         <Route path="/otp" component={Otp}></Route>
       </header>
     </div>
   );
