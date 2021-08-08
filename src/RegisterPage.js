@@ -15,15 +15,15 @@ function RegisterPage(props) {
   }
 
   return (
-    <div className="App">
-     <h5>Register</h5>
+    <div className="App"><br></br>
+     <h2>Register</h2><br></br>
      <label>Username : 
-     <input type="text" name="usr"/>  </label> <br></br>
+     <input type="text" name="usr"/>  </label> <br></br><br></br>
      <label></label>
      <label>Email : 
-     <input type="text" name="email" onChange={handleChange}/>  </label> <br></br>
+     <input type="text" name="email" onChange={handleChange}/>  </label> <br></br> <br></br>
      <label>Password
-     <input type="password" name="pwd" onChange={handleChange}/> </label> <br></br>
+     <input type="password" name="pwd" onChange={handleChange}/> </label> <br></br> <br></br>
     
      <Link  
        to={{

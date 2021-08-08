@@ -25,10 +25,10 @@ function Otp(props) {
     
   return (
     <div className="App"><br></br>
-      <h4>Select Payment Gateway</h4>
+      <h3>Select Payment Gateway</h3><br></br>
     
-      <label>Enter OTP : 
-     <input type="text" onChange={handleChange}/>  </label> <br></br>
+      <label> <b>Enter OTP :  </b>
+     <input type="text" onChange={handleChange}/>  </label> <br></br><br></br>
         <button className="button" onClick={handleClick}> Continue   </button>
     </div>
   );

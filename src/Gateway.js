@@ -9,9 +9,18 @@ function Gateway(props) {
 
   return (
     <div className="App"><br></br>
-      <h4>Select Payment Gateway</h4>
+      <h3>Select Payment Gateway</h3> <br></br>
     
-    <h5>You have selected {data.title} Course</h5>
+    <h4> <b>You have selected <u>{data.title}</u> Course </b></h4> <br></br>
+    <h5> <b>Enter Your Card Details To Make Payment:  </b></h5> <br></br>
+
+    <label>Credit Card Number: 
+     <input type="text" name="usr"/>  </label> <br></br><br></br>
+     <label></label>
+     <label> Expire Date :
+     <input type="text" name="email" />  </label> <br></br> <br></br>
+     <label>CVV :
+     <input type="password" name="pwd" /> </label> <br></br> <br></br>
    
     
      <Link  

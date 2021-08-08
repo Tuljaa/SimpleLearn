@@ -33,15 +33,15 @@ function LandingPage(props) {
   console.log(props)
 
   return (
-    <div className="App">
+    <div className="App"> <br></br>
     
      <label>Email : 
-     <input type="text" name="email" onChange={handleChange}/>  </label> <br></br>
+     <input type="text" name="email" onChange={handleChange}/>  </label> <br></br> <br></br>
      <label>Password
-     <input type="password" name="pwd" onChange={handleChange}/> </label> <br></br>
+     <input type="password" name="pwd" onChange={handleChange}/> </label> <br></br> <br></br>
      <button className="button" type="submit" onClick={handleSubmit} >SUBMIT </button>
       
-    <Link to="/register" >New User ?</Link>
+    <Link to="/register" style={{color:'black',margin:'10%'}} >New User ?</Link>
 
     </div>
   );

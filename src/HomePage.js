@@ -28,7 +28,7 @@ function HomePage() {
                (value,key) => {
                    return(
                        <>
-                    <div key={key} style={{color:'black',width:'30%',height:'30%'}} >
+                    <div key={key} style={{color:'black',width:'30%',height:'30%',display:'block'}} >
                     <div className="container">
                         <img src={value.thumbnailURL} alt={value.id} style={{width:'50%',height:'50%'}} /><hr></hr>
                         <h2 ><b>{value.title}</b></h2> <hr></hr>
